@@ -1,2 +1,2 @@
-# mightybizarre
+# Mighty's Bizarre GitHub Repo
  
