@@ -8249,3 +8249,535 @@ Loaded File 'Data/Animations/SonicSmooth.ani'
 Loaded File 'Data/Palettes/Pause.act'
 Loaded File 'Data/Animations/WreckingBall.ani'
 Loaded File 'Data/Music/GHZA2.ogg'
+Loaded Data File 'Bytecode/GlobalCode.bin'
+loaded datapack 'Data.rsdk'
+Loaded File 'Data/Game/GameConfig.bin'
+Couldn't load file 'Data/Game/Game.xml'
+Couldn't load file 'Data/Game/Game.xml'
+Couldn't load file 'Data/Game/Game.xml'
+Couldn't load file 'Data/Game/Game.xml'
+Couldn't load file 'Data/Game/Game.xml'
+Couldn't load file 'Data/Game/Game.xml'
+Couldn't load file 'Data/Game/Game.xml'
+Couldn't load file 'Data/Game/Game.xml'
+Couldn't load file 'Data/Game/Game.xml'
+Couldn't load file 'Data/Game/Game.xml'
+Initializing gamepads...
+Found 0 gamepads!
+Loaded File 'Data/Game/GameConfig.bin'
+Set SFX (0) name to: Jump
+Set SFX (1) name to: Ring L
+Set SFX (2) name to: Ring R
+Set SFX (3) name to: Skidding
+Set SFX (4) name to: Lose Rings
+Set SFX (5) name to: Hurt
+Set SFX (6) name to: Charge
+Set SFX (7) name to: Release
+Set SFX (8) name to: Destroy
+Set SFX (9) name to: Lamp Post
+Set SFX (10) name to: Blue Shield
+Set SFX (11) name to: Spring
+Set SFX (12) name to: Sign Post
+Set SFX (13) name to: Score Add
+Set SFX (14) name to: Score Total
+Set SFX (15) name to: Special Ring
+Set SFX (16) name to: Warp
+Set SFX (17) name to: Explosion
+Set SFX (18) name to: Rolling
+Set SFX (19) name to: Flying
+Set SFX (20) name to: Tired
+Set SFX (21) name to: Menu Move
+Set SFX (22) name to: Menu Select
+Set SFX (23) name to: Menu Back
+Set SFX (24) name to: Life
+Set SFX (25) name to: Landing
+Set SFX (26) name to: Sliding
+Set SFX (27) name to: Catch
+Set SFX (28) name to: Bonus Points
+Set SFX (29) name to: Spikes Move
+Set SFX (30) name to: Bubble Shield
+Set SFX (31) name to: Bubble Bounce
+Set SFX (32) name to: Fire Shield
+Set SFX (33) name to: Fire Dash
+Set SFX (34) name to: Lightning Shield
+Set SFX (35) name to: Lightning Jump
+Set SFX (36) name to: Insta Shield
+Set SFX (37) name to: Transform
+Set SFX (38) name to: Spike
+Set SFX (39) name to: Event
+Set SFX (40) name to: Resume
+Set SFX (41) name to: Static
+Set SFX (42) name to: Drop Dash Release
+Set SFX (43) name to: Drop Dash
+Set SFX (44) name to: Peelout Charge
+Set SFX (45) name to: Peelout Release
+Set SFX (46) name to: Ducc
+Set SFX (47) name to: Trigger
+Set SFX (48) name to: Thud
+Set SFX (49) name to: BrokenLamp
+Set SFX (50) name to: DrownWarn
+Set SFX (51) name to: scroll
+Set SFX (52) name to: select
+Loaded Data File 'Data/SoundFX/Global/Jump.wav'
+Loaded Data File 'Data/SoundFX/Global/Ring.wav'
+Loaded Data File 'Data/SoundFX/Global/Ring.wav'
+Loaded Data File 'Data/SoundFX/Global/Skidding.wav'
+Loaded Data File 'Data/SoundFX/Global/LoseRings.wav'
+Loaded Data File 'Data/SoundFX/Global/Hurt.wav'
+Loaded Data File 'Data/SoundFX/Global/Charge.wav'
+Loaded Data File 'Data/SoundFX/Global/Release.wav'
+Loaded Data File 'Data/SoundFX/Global/Destroy.wav'
+Loaded Data File 'Data/SoundFX/Global/LampPost.wav'
+Loaded Data File 'Data/SoundFX/Global/BlueShield.wav'
+Loaded Data File 'Data/SoundFX/Global/Spring.wav'
+Loaded Data File 'Data/SoundFX/Global/SignPost.wav'
+Loaded Data File 'Data/SoundFX/Global/ScoreAdd.wav'
+Loaded Data File 'Data/SoundFX/Global/ScoreTotal.wav'
+Loaded Data File 'Data/SoundFX/Global/SpecialRing.wav'
+Loaded Data File 'Data/SoundFX/Global/SpecialWarp.wav'
+Loaded Data File 'Data/SoundFX/Global/Explosion.wav'
+Loaded Data File 'Data/SoundFX/Global/Rolling.wav'
+Loaded Data File 'Data/SoundFX/Global/Flying.wav'
+Loaded Data File 'Data/SoundFX/Global/Tired.wav'
+Loaded Data File 'Data/SoundFX/Global/MenuButton.wav'
+Loaded File 'Data/SoundFX/Global/Select.wav'
+Unable to read sfx: P:\TeamForever-v4-1.3-1.3.0\build\x64\Debug\Mods/MsBA\Data\SoundFX\Global\select.wav (error: Invalid audio device ID)
+Loaded Data File 'Data/SoundFX/Global/BackButton.wav'
+Loaded Data File 'Data/SoundFX/Global/1Up.wav'
+Loaded Data File 'Data/SoundFX/Global/Landing.wav'
+Loaded Data File 'Data/SoundFX/Global/Sliding.wav'
+Loaded Data File 'Data/SoundFX/Global/Catch.wav'
+Loaded Data File 'Data/SoundFX/Global/BonusPoints.wav'
+Loaded Data File 'Data/SoundFX/Global/SpikesMove.wav'
+Loaded Data File 'Data/SoundFX/Global/BubbleShield.wav'
+Loaded Data File 'Data/SoundFX/Global/BubbleBounce.wav'
+Loaded Data File 'Data/SoundFX/Global/FireShield.wav'
+Loaded Data File 'Data/SoundFX/Global/FireDash.wav'
+Loaded Data File 'Data/SoundFX/Global/LightningShield.wav'
+Loaded Data File 'Data/SoundFX/Global/LightningJump.wav'
+Loaded Data File 'Data/SoundFX/Global/InstaShield.wav'
+Loaded Data File 'Data/SoundFX/Global/Transform.wav'
+Loaded Data File 'Data/SoundFX/Global/Spike.wav'
+Loaded Data File 'Data/SoundFX/Global/Event.wav'
+Loaded Data File 'Data/SoundFX/Global/Resume.wav'
+Loaded Data File 'Data/SoundFX/Stage/Waterfall2.wav'
+Loaded File 'Data/SoundFX/Global/DDRelease.wav'
+Loaded File 'Data/SoundFX/Global/DropDash.wav'
+Loaded File 'Data/SoundFX/Global/PeelCharge.wav'
+Loaded File 'Data/SoundFX/Global/PeelRelease.wav'
+Loaded File 'Data/SoundFX/Global/Ducc.wav'
+Loaded File 'Data/SoundFX/Global/Trigger.wav'
+Loaded File 'Data/SoundFX/Global/Thud.wav'
+Loaded File 'Data/SoundFX/Global/BrokenLamp.wav'
+Loaded File 'Data/SoundFX/Global/DrownCD.wav'
+Loaded File 'Data/SoundFX/Global/scroll.wav'
+Unable to read sfx: P:\TeamForever-v4-1.3-1.3.0\build\x64\Debug\Mods/MsBA\Data\SoundFX\Global\scroll.wav (error: Invalid audio device ID)
+Loaded File 'Data/SoundFX/select.ogg'
+Couldn't load file 'Data/Game/Game.xml'
+Couldn't load file 'Data/Game/Game.xml'
+Loaded File 'Data/Game/SystemText.gif'
+Loaded File 'Data/Game/SystemText.gif'
+Set Object (0) name to: Blank Object
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Failed to load string... (en, TwoPlayerVS)
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Failed to load string... (en, StageName9)
+Loaded File 'Data/Game/StringList.txt'
+Failed to load string... (en, StageName10)
+Loaded File 'Data/Game/StringList.txt'
+Failed to load string... (en, StageName11)
+Loaded File 'Data/Game/StringList.txt'
+Failed to load string... (en, StageName12)
+Loaded File 'Data/Game/StringList.txt'
+Failed to load string... (en, StageName13)
+Loaded File 'Data/Game/StringList.txt'
+Failed to load string... (en, StageName14)
+Loaded File 'Data/Game/StringList.txt'
+Failed to load string... (en, StageName15)
+Loaded File 'Data/Game/StringList.txt'
+Failed to load string... (en, StageName16)
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Failed to load string... (en, SaveStageName27)
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/StringList.txt'
+Loaded File 'Data/Game/CreditsMobile.txt'
+Loading Scene Presentation Stages - TITLE SCREEN
+Loaded File 'Data/Game/SystemText.gif'
+Set Object (0) name to: Blank Object
+Loaded File 'Data/Stages/Title/StageConfig.bin'
+Loaded File 'Data/Stages/Title/StageConfig.bin'
+Set SFX (53) name to: Sega Chant
+Loaded Data File 'Data/SoundFX/Stage/Sega.wav'
+Set Object (1) name to: Sega
+Set Object (2) name to: Sonic Team
+Set Object (3) name to: Logo
+Set Object (4) name to: Start Message
+Loaded Data File 'Bytecode/Title.bin'
+Loaded File 'Scripts/Title/Sega.txt'
+WARNING: Unknown typename "ControlTest", on line 212
+Loaded File 'Scripts/Title/SonicTeam.txt'
+Loaded File 'Scripts/Title/Logo.txt'
+Loaded File 'Scripts/Title/Start.txt'
+WARNING: Unknown typename "MusicEvent", on line 402
+WARNING: Unknown sfxName "Emerald", on line 470
+Loaded File 'Data/Stages/Title/16x16Tiles.gif'
+Loaded File 'Data/Stages/Title/CollisionMasks.bin'
+Loaded File 'Data/Stages/Title/Backgrounds.bin'
+Loaded File 'Data/Stages/Title/128x128Tiles.bin'
+Loaded File 'Data/Stages/Title/Act1.bin'
+Loaded File 'Data/Game/SystemText.gif'
+Loaded File 'Data/Sprites/Title/Title.gif'
+Loaded File 'Data/Sprites/Title/SonicTeam.gif'
+Loaded File 'Data/Music/Titlescreen.ogg'
+Loading Scene Presentation Stages - MAIN MENU
+Loaded File 'Data/Game/SystemText.gif'
+Set Object (0) name to: Blank Object
+Loaded File 'Data/Stages/MainMenu/StageConfig.bin'
+Loaded File 'Data/Stages/MainMenu/StageConfig.bin'
+Set SFX (53) name to: Sega Chant
+Loaded Data File 'Data/SoundFX/Stage/Sega.wav'
+Set Object (1) name to: Main Menu
+Set Object (2) name to: Menu Monitor Icon
+Couldn't load file 'Bytecode/MainMenu.bin'
+Loaded File 'Scripts/MainMenu/Main.txt'
+Loaded File 'Scripts/MainMenu/MonIcons.txt'
+Loaded File 'Data/Stages/MainMenu/16x16Tiles.gif'
+Loaded File 'Data/Stages/MainMenu/CollisionMasks.bin'
+Loaded File 'Data/Stages/MainMenu/Backgrounds.bin'
+Loaded File 'Data/Stages/MainMenu/128x128Tiles.bin'
+Loaded File 'Data/Stages/MainMenu/Act1.bin'
+Loaded File 'Data/Game/SystemText.gif'
+Loaded File 'Data/Palettes/MainMenu.act'
+Loaded File 'Data/Sprites/Menus/MainMenuNewCore.gif'
+Loaded File 'Data/Sprites/Menus/MonIcon.gif'
+Loaded File 'Data/Music/DreamsIntoReality.ogg'
+Loading Scene Presentation Stages - SAVE SELECT
+Loaded File 'Data/Game/SystemText.gif'
+Set Object (0) name to: Blank Object
+Loaded File 'Data/Stages/SaveSelect/StageConfig.bin'
+Loaded File 'Data/Stages/SaveSelect/StageConfig.bin'
+Set SFX (53) name to: Sega Chant
+Loaded Data File 'Data/SoundFX/Stage/Sega.wav'
+Set Object (1) name to: Save Select Menu
+Couldn't load file 'Bytecode/SaveSelect.bin'
+Loaded File 'Scripts/Save/SaveSel.txt'
+WARNING: unable to convert case string "0LoadSpriteSheet("Menus/SaveSelect.gif")" to int, on line 1319
+WARNING: unable to read case string "0LoadSpriteSheet("Menus/SaveSelect.gif")" as an int, on line 1320
+Loaded File 'Data/Stages/SaveSelect/16x16Tiles.gif'
+Loaded File 'Data/Stages/SaveSelect/CollisionMasks.bin'
+Loaded File 'Data/Stages/SaveSelect/Backgrounds.bin'
+Loaded File 'Data/Stages/SaveSelect/128x128Tiles.bin'
+Loaded File 'Data/Stages/SaveSelect/Act1.bin'
+Loaded File 'Data/Game/SystemText.gif'
+Loaded File 'Data/Palettes/SaveSelect.act'
+Loaded File 'Data/Sprites/Menus/SaveSelect.gif'
+Loaded File 'Data/Music/StartingTheShow.ogg'
+Loading Scene Regular Stages - EMERALD CASCADE ZONE 1
+Loaded File 'Data/Game/SystemText.gif'
+Set Object (0) name to: Blank Object
+Loaded File 'Data/Stages/Zone01/StageConfig.bin'
+Loaded File 'Data/Game/GameConfig.bin'
+Set Object (1) name to: Player Object
+Set Object (2) name to: Tails Object
+Set Object (3) name to: Player 2 Object
+Set Object (4) name to: Stage Setup
+Set Object (5) name to: HUD
+Set Object (6) name to: Title Card
+Set Object (7) name to: Death Event
+Set Object (8) name to: Act Finish
+Set Object (9) name to: Debug Mode
+Set Object (10) name to: Ring
+Set Object (11) name to: Lose Ring
+Set Object (12) name to: Ring Sparkle
+Set Object (13) name to: Monitor
+Set Object (14) name to: Broken Monitor
+Set Object (15) name to: Red Spring
+Set Object (16) name to: Yellow Spring
+Set Object (17) name to: Lamp Post
+Set Object (18) name to: Smoke Puff
+Set Object (19) name to: Dust Puff
+Set Object (20) name to: Sign Post
+Set Object (21) name to: Animal Prison
+Set Object (22) name to: Special Ring
+Set Object (23) name to: Explosion
+Set Object (24) name to: Blue Shield
+Set Object (25) name to: Blue Shield 2
+Set Object (26) name to: Insta Shield
+Set Object (27) name to: Bubble Shield
+Set Object (28) name to: Fire Shield
+Set Object (29) name to: LightningShield
+Set Object (30) name to: Lightning Spark
+Set Object (31) name to: Invincibility
+Set Object (32) name to: Invincibility 2
+Set Object (33) name to: Super Spark
+Set Object (34) name to: Y Bound Adjust
+Set Object (35) name to: Spikes
+Set Object (36) name to: Object Score
+Set Object (37) name to: Bonus Points
+Set Object (38) name to: Music Event
+Loaded Data File 'Bytecode/GlobalCode.bin'
+Loaded File 'Scripts/Players/PlayerObject.txt'
+WARNING: Unknown typename "Goggles", on line 4408
+Loaded File 'Scripts/Players/TailsObject.txt'
+Loaded File 'Scripts/Players/Player2Object.txt'
+Loaded File 'Scripts/Global/StageSetup.txt'
+Loaded File 'Scripts/Global/HUD.txt'
+Loaded File 'Scripts/Global/TitleCard.txt'
+Loaded File 'Scripts/Global/DeathEvent.txt'
+Loaded File 'Scripts/Global/ActFinish.txt'
+Loaded File 'Scripts/Global/DebugMode.txt'
+Loaded File 'Scripts/Global/Ring.txt'
+Loaded File 'Scripts/Global/LoseRing.txt'
+Loaded File 'Scripts/Global/RingSparkle.txt'
+Loaded File 'Scripts/Global/Monitor.txt'
+Loaded File 'Scripts/Global/BrokenMonitor.txt'
+Loaded File 'Scripts/Global/RedSpring.txt'
+Loaded File 'Scripts/Global/YellowSpring.txt'
+Loaded File 'Scripts/Global/LampPost.txt'
+Loaded File 'Scripts/Global/SmokePuff.txt'
+Loaded File 'Scripts/Global/DustPuff.txt'
+Loaded File 'Scripts/Global/SignPost.txt'
+Loaded File 'Scripts/Global/AnimalPrison.txt'
+Loaded File 'Scripts/Global/SpecialRing.txt'
+Loaded File 'Scripts/Global/Explosion.txt'
+Loaded File 'Scripts/Global/BlueShield.txt'
+Loaded File 'Scripts/Global/BlueShield2.txt'
+Loaded File 'Scripts/Global/InstaShield.txt'
+Loaded File 'Scripts/Global/BubbleShield.txt'
+Loaded File 'Scripts/Global/FireShield.txt'
+Loaded File 'Scripts/Global/LightningShield.txt'
+Loaded File 'Scripts/Global/LightningSpark.txt'
+Loaded File 'Scripts/Global/Invincibility.txt'
+Loaded File 'Scripts/Global/Invincibility2.txt'
+Loaded File 'Scripts/Global/SuperSpark.txt'
+Loaded File 'Scripts/Global/YBoundAdjust.txt'
+Loaded File 'Scripts/Global/Spikes.txt'
+Loaded File 'Scripts/Global/ObjectScore.txt'
+Loaded File 'Scripts/Global/BonusPoints.txt'
+Loaded File 'Scripts/Global/MusicEvent.txt'
+Couldn't load file 'Data/Game/Game.xml'
+Couldn't load file 'Data/Game/Game.xml'
+Loaded File 'Data/Stages/Zone01/StageConfig.bin'
+Set SFX (53) name to: Boss Hit
+Set SFX (54) name to: Ledge Break L
+Set SFX (55) name to: Ledge Break R
+Set SFX (56) name to: Waterfall
+Set SFX (57) name to: Waterfall Loop
+Set SFX (58) name to: Block Break
+Set SFX (59) name to: Golf Clap
+Loaded Data File 'Data/SoundFX/Stage/BossHit.wav'
+Loaded Data File 'Data/SoundFX/Stage/LedgeBreak.wav'
+Loaded Data File 'Data/SoundFX/Stage/LedgeBreak2.wav'
+Loaded Data File 'Data/SoundFX/Stage/Waterfall.wav'
+Loaded Data File 'Data/SoundFX/Stage/Waterfall2.wav'
+Loaded Data File 'Data/SoundFX/Stage/BlockBreak.wav'
+Couldn't load file 'Data/SoundFX/Stage/golfclap.wav'
+Set Object (39) name to: GHZ Setup
+Set Object (40) name to: Plane Sw V
+Set Object (41) name to: Plane Sw H
+Set Object (42) name to: Plane Sw L
+Set Object (43) name to: Rock
+Set Object (44) name to: Bridge
+Set Object (45) name to: Bridge End
+Set Object (46) name to: Swing Platform
+Set Object (47) name to: Fall Platform
+Set Object (48) name to: H Platform
+Set Object (49) name to: V Platform
+Set Object (50) name to: V Platform 2
+Set Object (51) name to: Breakable Wall
+Set Object (52) name to: C Ledge Left
+Set Object (53) name to: C Ledge Right
+Set Object (54) name to: Spike Logs
+Set Object (55) name to: Tube Switch
+Set Object (56) name to: Buzz Bomber
+Set Object (57) name to: Buzz Bomber Shot
+Set Object (58) name to: Motobug
+Set Object (59) name to: Motobug Exhaust
+Set Object (60) name to: Chopper
+Set Object (61) name to: Crabmeat
+Set Object (62) name to: Crabmeat Shot
+Set Object (63) name to: Newtron Shoot
+Set Object (64) name to: Newtron Shot
+Set Object (65) name to: Newtron Fly
+Set Object (66) name to: Eggman
+Set Object (67) name to: Boss Lights
+Set Object (68) name to: Boss Chain
+Set Object (69) name to: Wrecking Ball
+Set Object (70) name to: Pocky
+Set Object (71) name to: Flicky
+Set Object (72) name to: Waterfall Sound
+Set Object (73) name to: Splats
+Set Object (74) name to: Checkered Ball
+Set Object (75) name to: Golf Ball
+Set Object (76) name to: Golf Hole
+Set Object (77) name to: Golf HUD
+Set Object (78) name to: Palette Police
+Loaded Data File 'Bytecode/Zone01.bin'
+Loaded File 'Scripts/GHZ/GHZSetup.txt'
+Loaded File 'Scripts/Global/PSwitch_V.txt'
+Loaded File 'Scripts/Global/PSwitch_H.txt'
+Loaded File 'Scripts/Global/PSwitch_Loop.txt'
+Loaded File 'Scripts/GHZ/Rock.txt'
+Loaded File 'Scripts/GHZ/Bridge.txt'
+Loaded File 'Scripts/GHZ/BridgeEnd.txt'
+Loaded File 'Scripts/GHZ/SwingPlat.txt'
+Loaded File 'Scripts/GHZ/FPlatform.txt'
+Loaded File 'Scripts/GHZ/HPlatform.txt'
+Loaded File 'Scripts/GHZ/VPlatform.txt'
+Loaded File 'Scripts/GHZ/VPlatform2.txt'
+Loaded File 'Scripts/GHZ/BreakWall.txt'
+Loaded File 'Scripts/GHZ/CLedgeLeft.txt'
+Loaded File 'Scripts/GHZ/CLedgeRight.txt'
+Loaded File 'Scripts/GHZ/SpikeLogs.txt'
+Loaded File 'Scripts/GHZ/TubeSwitch.txt'
+Loaded File 'Scripts/Enemies/BuzzBomber.txt'
+Loaded File 'Scripts/Enemies/BuzzBomberShot.txt'
+Loaded File 'Scripts/Enemies/Motobug.txt'
+Loaded File 'Scripts/Enemies/MotobugExhaust.txt'
+Loaded File 'Scripts/Enemies/Chopper.txt'
+Loaded File 'Scripts/Enemies/Crabmeat.txt'
+Loaded File 'Scripts/Enemies/CrabmeatShot.txt'
+Loaded File 'Scripts/Enemies/NewtronShoot.txt'
+Loaded File 'Scripts/Enemies/NewtronShot.txt'
+Loaded File 'Scripts/Enemies/NewtronFly.txt'
+Loaded File 'Scripts/GHZ/Eggman.txt'
+Loaded File 'Scripts/GHZ/BossLights.txt'
+Loaded File 'Scripts/GHZ/BossChain.txt'
+Loaded File 'Scripts/GHZ/WreckingBall.txt'
+Loaded File 'Scripts/Animals/Pocky.txt'
+Loaded File 'Scripts/Animals/Flicky.txt'
+Loaded File 'Scripts/GHZ/WaterfallSound.txt'
+Loaded File 'Scripts/Enemies/Splats.txt'
+Loaded File 'Scripts/GHZ/CheckeredBall.txt'
+Couldn't load file 'Scripts/GHZ/GolfBall.txt'
+Couldn't load file 'Scripts/GHZ/GolfHole.txt'
+Couldn't load file 'Scripts/GHZ/GolfHUD.txt'
+Couldn't load file 'Scripts/Global/PalettePolice.txt'
+Loaded File 'Data/Stages/Zone01/16x16Tiles.gif'
+Loaded File 'Data/Stages/Zone01/CollisionMasks.bin'
+Loaded File 'Data/Stages/Zone01/Backgrounds.bin'
+Loaded File 'Data/Stages/Zone01/128x128Tiles.bin'
+Loaded File 'Data/Stages/Zone01/Act1.bin'
+Loaded File 'Data/Game/SystemText.gif'
+Loaded File 'Data/Animations/SuperSonicSmooth.ani'
+Loaded File 'Data/Sprites/Players/Sonic1.gif'
+Loaded File 'Data/Sprites/Players/Sonic2.gif'
+Loaded File 'Data/Sprites/Players/Sonic3.gif'
+Loaded File 'Data/Sprites/Players/SonicSup.gif'
+Loaded File 'Data/Sprites/Players/SonicDD.gif'
+Loaded File 'Data/Animations/SonicSmooth.ani'
+Loaded File 'Data/Sprites/Players/Mighty1.gif'
+Loaded File 'Data/Sprites/Global/Achievements.gif'
+Loaded File 'Data/Sprites/Global/Display.gif'
+Loaded File 'Data/Sprites/Global/Items.gif'
+Loaded File 'Data/Sprites/Global/KnuxGreyShield.gif'
+Loaded File 'Data/Sprites/Global/Items2.gif'
+Loaded File 'Data/Sprites/Global/Items3.gif'
+Loaded File 'Data/Sprites/Global/Pause.gif'
+Loaded File 'Data/Palettes/Pause.act'
+Loaded File 'Data/Sprites/GHZ/Objects.gif'
+Loaded File 'Data/Sprites/GHZ/Objects2.gif'
+Loaded File 'Data/Sprites/Global/Eggman.gif'
+Loaded File 'Data/Animations/WreckingBall.ani'
+Loaded File 'Data/Music/GHZA1.ogg'
+Loaded File 'Data/Music/Invincibility.ogg'
+Loaded File 'Data/Music/GHZA1.ogg'
+Loaded File 'Data/Music/ActComplete.ogg'
+Reloading Scene Regular Stages - 2
+Loaded File 'Data/Stages/Zone01/128x128Tiles.bin'
+Loaded File 'Data/Stages/Zone01/Act2.bin'
+Loaded File 'Data/Game/SystemText.gif'
+Loaded File 'Data/Animations/SuperSonicSmooth.ani'
+Loaded File 'Data/Animations/SonicSmooth.ani'
+Loaded File 'Data/Palettes/Pause.act'
+Loaded File 'Data/Animations/WreckingBall.ani'
+Loaded File 'Data/Music/GHZA2.ogg'
