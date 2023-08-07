@@ -1,0 +1,30 @@
+Operating system: Microsoft Windows NT 6.2.9200.0
+Opening game "C:\ROM Hacking\Disasm\Mighty's Bizarre Adventure\mightybizarre\SonLVL.ini"...
+Game type is V4.
+System.InvalidOperationException: Undo system is not initialized!
+   at SonicRetro.SonLVL.API.UndoSystem.CreateState(String name) in D:\Documents\GitHub\SonLVL-RSDK\SonLVLAPI\UndoSystem.cs:line 40
+   at SonicRetro.SonLVL.GUI.MainForm.SaveState(String name) in D:\Documents\GitHub\SonLVL-RSDK\SonLVL\MainForm.cs:line 888
+   at SonicRetro.SonLVL.GUI.MainForm.backgroundPanel_MouseUp(Object sender, MouseEventArgs e) in D:\Documents\GitHub\SonLVL-RSDK\SonLVL\MainForm.cs:line 3370
+   at System.Windows.Forms.MouseEventHandler.Invoke(Object sender, MouseEventArgs e)
+   at System.Windows.Forms.Control.OnMouseUp(MouseEventArgs e)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.UserControl.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+Opening game "C:\ROM Hacking\Disasm\Mighty's Bizarre Adventure\mightybizarre\Mods\MsBA\mod.ini"...
+System.ArgumentNullException: Value cannot be null.
+Parameter name: path
+   at System.IO.Path.GetFullPathInternal(String path)
+   at SonicRetro.SonLVL.API.LevelData.LoadGame(String filename) in D:\Documents\GitHub\SonLVL-RSDK\SonLVLAPI\LevelData.cs:line 93
+   at SonicRetro.SonLVL.GUI.MainForm.LoadINI(String filename) in D:\Documents\GitHub\SonLVL-RSDK\SonLVL\MainForm.cs:line 309
+Opening game "C:\ROM Hacking\Disasm\Mighty's Bizarre Adventure\mightybizarre\Mods\MsBA\mod.ini"...
+System.ArgumentNullException: Value cannot be null.
+Parameter name: path
+   at System.IO.Path.GetFullPathInternal(String path)
+   at SonicRetro.SonLVL.API.LevelData.LoadGame(String filename) in D:\Documents\GitHub\SonLVL-RSDK\SonLVLAPI\LevelData.cs:line 93
+   at SonicRetro.SonLVL.GUI.MainForm.LoadINI(String filename) in D:\Documents\GitHub\SonLVL-RSDK\SonLVL\MainForm.cs:line 309
+Loading GREEN HILL ZONE 1...
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SonicRetro.SonLVL.API.LevelData.LoadLevel(StageInfo stage) in D:\Documents\GitHub\SonLVL-RSDK\SonLVLAPI\LevelData.cs:line 236
+   at SonicRetro.SonLVL.GUI.MainForm.LoadLevelPart2(LevelStuff argument) in D:\Documents\GitHub\SonLVL-RSDK\SonLVL\MainForm.cs:line 643
+   at SonicRetro.SonLVL.GUI.MainForm.backgroundLevelLoader_DoWork(Object sender, DoWorkEventArgs e) in D:\Documents\GitHub\SonLVL-RSDK\SonLVL\MainForm.cs:line 633
