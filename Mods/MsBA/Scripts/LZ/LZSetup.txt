@@ -637,8 +637,6 @@ event ObjectMain
 	object.value1++
 	if object.value1 == 3
 		object.value1 = 0
-		RotatePalette(0, 171, 174, 0)
-		RotatePalette(1, 171, 174, 0)
 	end if
 	if object.value2 > 0
 		object.value2--
@@ -646,8 +644,6 @@ event ObjectMain
 		object.value3++
 		object.value3 %= 3
 		GetTableValue(object.value2, object.value3, LZSetup_table25)
-		RotatePalette(0, 187, 189, LZSetup_value30)
-		RotatePalette(1, 187, 189, LZSetup_value30)
 	end if
 	foreach (GROUP_PLAYERS, currentPlayer, ACTIVE_ENTITIES)
 		temp1 = object[currentPlayer].xpos
