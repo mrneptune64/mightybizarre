@@ -1,13 +1,165 @@
 Operating system: Microsoft Windows NT 6.2.9200.0
-Opening game "C:\ROM Hacking\Disasm\Mighty's Bizarre Adventure\mightybizarre\SonLVL.ini"...
+Opening game "C:\Users\romeo\Documents\GitHub\mightybizarre\SonLVL.ini"...
 Game type is V4.
-System.InvalidOperationException: Undo system is not initialized!
-   at SonicRetro.SonLVL.API.UndoSystem.CreateState(String name) in D:\Documents\GitHub\SonLVL-RSDK\SonLVLAPI\UndoSystem.cs:line 40
-   at SonicRetro.SonLVL.GUI.MainForm.SaveState(String name) in D:\Documents\GitHub\SonLVL-RSDK\SonLVL\MainForm.cs:line 888
-   at SonicRetro.SonLVL.GUI.MainForm.backgroundPanel_MouseUp(Object sender, MouseEventArgs e) in D:\Documents\GitHub\SonLVL-RSDK\SonLVL\MainForm.cs:line 3370
-   at System.Windows.Forms.MouseEventHandler.Invoke(Object sender, MouseEventArgs e)
-   at System.Windows.Forms.Control.OnMouseUp(MouseEventArgs e)
-   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
-   at System.Windows.Forms.Control.WndProc(Message& m)
-   at System.Windows.Forms.UserControl.WndProc(Message& m)
+Loading EMERALD CASCADE ZONE 1...
+Loading object definition file "SonLVLObjDefs\Animals.ini".
+Loading object definition file "SonLVLObjDefs\Continue.ini".
+Loading object definition file "SonLVLObjDefs\CPZ.ini".
+Loading object definition file "SonLVLObjDefs\Credits.ini".
+Loading object definition file "SonLVLObjDefs\Ending.ini".
+Loading object definition file "SonLVLObjDefs\Enemies.ini".
+Loading object definition file "SonLVLObjDefs\GHZ.ini".
+Loading object definition file "SonLVLObjDefs\Global.ini".
+Loading object definition file "SonLVLObjDefs\LevelSelect.ini".
+Loading object definition file "SonLVLObjDefs\LZ.ini".
+Loading object definition file "SonLVLObjDefs\MZ.ini".
+Loading object definition file "SonLVLObjDefs\Players.ini".
+Loading object definition file "SonLVLObjDefs\SBZ.ini".
+Loading object definition file "SonLVLObjDefs\SLZ.ini".
+Loading object definition file "SonLVLObjDefs\Special.ini".
+Loading object definition file "SonLVLObjDefs\SYZ.ini".
+Loading object definition file "SonLVLObjDefs\Title.ini".
+Drawing tile bitmaps...
+Drawing collision bitmaps...
+Drawing chunk bitmaps...
+Level loaded in 0.3073847 second(s).
+Load completed.
+Saving EMERALD CASCADE ZONE 1...
+Saving EMERALD CASCADE ZONE 1...
+Loading 2...
+Loading object definition file "SonLVLObjDefs\Animals.ini".
+Loading object definition file "SonLVLObjDefs\Continue.ini".
+Loading object definition file "SonLVLObjDefs\CPZ.ini".
+Loading object definition file "SonLVLObjDefs\Credits.ini".
+Loading object definition file "SonLVLObjDefs\Ending.ini".
+Loading object definition file "SonLVLObjDefs\Enemies.ini".
+Loading object definition file "SonLVLObjDefs\GHZ.ini".
+Loading object definition file "SonLVLObjDefs\Global.ini".
+Loading object definition file "SonLVLObjDefs\LevelSelect.ini".
+Loading object definition file "SonLVLObjDefs\LZ.ini".
+Loading object definition file "SonLVLObjDefs\MZ.ini".
+Loading object definition file "SonLVLObjDefs\Players.ini".
+Loading object definition file "SonLVLObjDefs\SBZ.ini".
+Loading object definition file "SonLVLObjDefs\SLZ.ini".
+Loading object definition file "SonLVLObjDefs\Special.ini".
+Loading object definition file "SonLVLObjDefs\SYZ.ini".
+Loading object definition file "SonLVLObjDefs\Title.ini".
+Drawing tile bitmaps...
+Drawing collision bitmaps...
+Drawing chunk bitmaps...
+Level loaded in 0.2173414 second(s).
+Load completed.
+Saving 2...
+Loading EMERALD CASCADE ZONE 1...
+Loading object definition file "SonLVLObjDefs\Animals.ini".
+Loading object definition file "SonLVLObjDefs\Continue.ini".
+Loading object definition file "SonLVLObjDefs\CPZ.ini".
+Loading object definition file "SonLVLObjDefs\Credits.ini".
+Loading object definition file "SonLVLObjDefs\Ending.ini".
+Loading object definition file "SonLVLObjDefs\Enemies.ini".
+Loading object definition file "SonLVLObjDefs\GHZ.ini".
+Loading object definition file "SonLVLObjDefs\Global.ini".
+Loading object definition file "SonLVLObjDefs\LevelSelect.ini".
+Loading object definition file "SonLVLObjDefs\LZ.ini".
+Loading object definition file "SonLVLObjDefs\MZ.ini".
+Loading object definition file "SonLVLObjDefs\Players.ini".
+Loading object definition file "SonLVLObjDefs\SBZ.ini".
+Loading object definition file "SonLVLObjDefs\SLZ.ini".
+Loading object definition file "SonLVLObjDefs\Special.ini".
+Loading object definition file "SonLVLObjDefs\SYZ.ini".
+Loading object definition file "SonLVLObjDefs\Title.ini".
+Drawing tile bitmaps...
+Drawing collision bitmaps...
+Drawing chunk bitmaps...
+Level loaded in 0.2806333 second(s).
+Load completed.
+Saving EMERALD CASCADE ZONE 1...
+Saving EMERALD CASCADE ZONE 1...
+Loading 2...
+Loading object definition file "SonLVLObjDefs\Animals.ini".
+Loading object definition file "SonLVLObjDefs\Continue.ini".
+Loading object definition file "SonLVLObjDefs\CPZ.ini".
+Loading object definition file "SonLVLObjDefs\Credits.ini".
+Loading object definition file "SonLVLObjDefs\Ending.ini".
+Loading object definition file "SonLVLObjDefs\Enemies.ini".
+Loading object definition file "SonLVLObjDefs\GHZ.ini".
+Loading object definition file "SonLVLObjDefs\Global.ini".
+Loading object definition file "SonLVLObjDefs\LevelSelect.ini".
+Loading object definition file "SonLVLObjDefs\LZ.ini".
+Loading object definition file "SonLVLObjDefs\MZ.ini".
+Loading object definition file "SonLVLObjDefs\Players.ini".
+Loading object definition file "SonLVLObjDefs\SBZ.ini".
+Loading object definition file "SonLVLObjDefs\SLZ.ini".
+Loading object definition file "SonLVLObjDefs\Special.ini".
+Loading object definition file "SonLVLObjDefs\SYZ.ini".
+Loading object definition file "SonLVLObjDefs\Title.ini".
+Drawing tile bitmaps...
+Drawing collision bitmaps...
+Drawing chunk bitmaps...
+Level loaded in 0.248145 second(s).
+Load completed.
+Saving 2...
+Saving 2...
+Loading STAFF CREDITS...
+Loading object definition file "SonLVLObjDefs\Animals.ini".
+Loading object definition file "SonLVLObjDefs\Continue.ini".
+Loading object definition file "SonLVLObjDefs\CPZ.ini".
+Loading object definition file "SonLVLObjDefs\Credits.ini".
+Loading object definition file "SonLVLObjDefs\Ending.ini".
+Loading object definition file "SonLVLObjDefs\Enemies.ini".
+Loading object definition file "SonLVLObjDefs\GHZ.ini".
+Loading object definition file "SonLVLObjDefs\Global.ini".
+Loading object definition file "SonLVLObjDefs\LevelSelect.ini".
+Loading object definition file "SonLVLObjDefs\LZ.ini".
+Loading object definition file "SonLVLObjDefs\MZ.ini".
+Loading object definition file "SonLVLObjDefs\Players.ini".
+Loading object definition file "SonLVLObjDefs\SBZ.ini".
+Loading object definition file "SonLVLObjDefs\SLZ.ini".
+Loading object definition file "SonLVLObjDefs\Special.ini".
+Loading object definition file "SonLVLObjDefs\SYZ.ini".
+Loading object definition file "SonLVLObjDefs\Title.ini".
+Drawing tile bitmaps...
+Drawing collision bitmaps...
+Drawing chunk bitmaps...
+Level loaded in 0.1894014 second(s).
+Load completed.
+Saving STAFF CREDITS...
+Loading EMERALD CASCADE ZONE 1...
+Loading object definition file "SonLVLObjDefs\Animals.ini".
+Loading object definition file "SonLVLObjDefs\Continue.ini".
+Loading object definition file "SonLVLObjDefs\CPZ.ini".
+Loading object definition file "SonLVLObjDefs\Credits.ini".
+Loading object definition file "SonLVLObjDefs\Ending.ini".
+Loading object definition file "SonLVLObjDefs\Enemies.ini".
+Loading object definition file "SonLVLObjDefs\GHZ.ini".
+Loading object definition file "SonLVLObjDefs\Global.ini".
+Loading object definition file "SonLVLObjDefs\LevelSelect.ini".
+Loading object definition file "SonLVLObjDefs\LZ.ini".
+Loading object definition file "SonLVLObjDefs\MZ.ini".
+Loading object definition file "SonLVLObjDefs\Players.ini".
+Loading object definition file "SonLVLObjDefs\SBZ.ini".
+Loading object definition file "SonLVLObjDefs\SLZ.ini".
+Loading object definition file "SonLVLObjDefs\Special.ini".
+Loading object definition file "SonLVLObjDefs\SYZ.ini".
+Loading object definition file "SonLVLObjDefs\Title.ini".
+Drawing tile bitmaps...
+Drawing collision bitmaps...
+Drawing chunk bitmaps...
+Level loaded in 0.2852998 second(s).
+Load completed.
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at SonicRetro.SonLVL.GUI.MainForm.objectNameBox_TextChanged(Object sender, EventArgs e)
+   at System.Windows.Forms.Control.OnTextChanged(EventArgs e)
+   at System.Windows.Forms.TextBoxBase.WmReflectCommand(Message& m)
+   at System.Windows.Forms.TextBox.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at SonicRetro.SonLVL.GUI.MainForm.objectNameBox_TextChanged(Object sender, EventArgs e)
+   at System.Windows.Forms.Control.OnTextChanged(EventArgs e)
+   at System.Windows.Forms.TextBoxBase.WmReflectCommand(Message& m)
+   at System.Windows.Forms.TextBox.WndProc(Message& m)
    at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
