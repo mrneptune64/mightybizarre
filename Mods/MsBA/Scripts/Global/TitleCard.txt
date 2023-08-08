@@ -25,31 +25,26 @@ event ObjectMain
 		object.value5 = -320
 		switch object.propertyValue
 		case 0
-			object.value6 = stage.actNum
+			stage.actNum = stage.actNum
 			TitleCard_value23 = 0
 			break
 		case 1
-			object.value6 = 1
+			stage.actNum = 1
 			TitleCard_value23 = 0
 			break
 		case 2
-			object.value6 = 2
+			stage.actNum = 2
 			TitleCard_value23 = 0
 			break
 		case 3
-			object.value6 = 3
+			stage.actNum = 3
 			TitleCard_value23 = 0
 			break
 		default
 			TitleCard_value23 = 1
 		end switch
-		if options.vsMode == 1
-			object.value7 = 0
-			object.value8 = 1
-		else
-			object.value7 = 1
-			object.value8 = 0
-		end if
+		object.value7 = 1
+		object.value8 = 0
 		if credits.screen > 0
 			object.state = 7
 			object.value0 = 272
@@ -230,11 +225,6 @@ event ObjectDraw
 			SetActivePalette(0, 0, screen.ysize)
 			DrawRect(0, 0, screen.xsize, object.value3, 0, 145, 0, 255)		
 			DrawRect(0, object.value3, screen.xsize, screen.ysize, 0, 0, 0, 255)
-			if options.vsMode == 1
-				if object.state == 1
-					DrawSpriteScreenXY(32, screen.xsize, screen.ysize)
-				end if
-			end if
 			DrawRect(object.value4, 168, screen.xsize, 72, 224, 224, 0, 255)
 			temp0 = object.value4
 			temp0 += screen.xcenter
@@ -251,9 +241,9 @@ event ObjectDraw
 			temp0 += 41
 			temp0 += object.value2
 			DrawSpriteScreenXY(27, temp0, 88)
-			if object.value6 > 0
+			if stage.actNum > 0
 				temp1 = 27
-				temp1 += object.value6
+				temp1 += stage.actNum
 				if temp1 > 30
 					temp1 = 30
 				end if
@@ -280,9 +270,9 @@ event ObjectDraw
 			temp0 += 41
 			temp0 += object.value2
 			DrawSpriteScreenXY(27, temp0, 88)
-			if object.value6 > 0
+			if stage.actNum > 0
 				temp1 = 27
-				temp1 += object.value6
+				temp1 += stage.actNum
 				if temp1 > 30
 					temp1 = 30
 				end if
@@ -302,9 +292,9 @@ event ObjectDraw
 			temp0 += 41
 			temp0 += object.value2
 			DrawSpriteScreenXY(27, temp0, 88)
-			if object.value6 > 0
+			if stage.actNum > 0
 				temp1 = 27
-				temp1 += object.value6
+				temp1 += stage.actNum
 				if temp1 > 30
 					temp1 = 30
 				end if
@@ -322,14 +312,9 @@ event ObjectDraw
 		case 2
 		case 3
 			SetActivePalette(0, 0, screen.ysize)
-			DrawRect(0, 0, screen.xsize, object.value3, 32, 64, 192, 255)		
+			DrawRect(0, 0, screen.xsize, object.value3, 0, 0, 0, 255)		
 			DrawRect(0, object.value3, screen.xsize, screen.ysize, 0, 0, 0, 255)
-			if options.vsMode == 1
-				if object.state == 1
-					DrawSpriteScreenXY(32, screen.xsize, screen.ysize)
-				end if
-			end if
-			DrawRect(object.value4, 168, screen.xsize, 72, 224, 224, 0, 255)
+			DrawRect(object.value4, 168, screen.xsize, 72, 0, 0, 0, 0)
 			temp0 = object.value4
 			temp0 += screen.xcenter
 			DrawSpriteScreenXY(31, temp0, 176)
@@ -345,9 +330,9 @@ event ObjectDraw
 			temp0 += 41
 			temp0 += object.value2
 			DrawSpriteScreenXY(27, temp0, 88)
-			if object.value6 > 0
+			if stage.actNum > 0
 				temp1 = 27
-				temp1 += object.value6
+				temp1 += stage.actNum
 				if temp1 > 30
 					temp1 = 30
 				end if
@@ -357,8 +342,8 @@ event ObjectDraw
 		case 4
 		case 5
 			SetActivePalette(0, 0, screen.ysize)
-			DrawRect(0, 0, screen.xsize, object.value3, 32, 64, 192, 255)
-			DrawRect(object.value4, 168, screen.xsize, 72, 224, 224, 0, 255)
+			DrawRect(0, 0, screen.xsize, object.value3, 0, 0, 0, 255)
+			DrawRect(object.value4, 168, screen.xsize, 72, 0, 0, 0, 0)
 			temp0 = object.value4
 			temp0 += screen.xcenter
 			DrawSpriteScreenXY(31, temp0, 176)
@@ -374,9 +359,9 @@ event ObjectDraw
 			temp0 += 41
 			temp0 += object.value2
 			DrawSpriteScreenXY(27, temp0, 88)
-			if object.value6 > 0
+			if stage.actNum > 0
 				temp1 = 27
-				temp1 += object.value6
+				temp1 += stage.actNum
 				if temp1 > 30
 					temp1 = 30
 				end if
@@ -396,9 +381,9 @@ event ObjectDraw
 			temp0 += 41
 			temp0 += object.value2
 			DrawSpriteScreenXY(27, temp0, 88)
-			if object.value6 > 0
+			if stage.actNum > 0
 				temp1 = 27
-				temp1 += object.value6
+				temp1 += stage.actNum
 				if temp1 > 30
 					temp1 = 30
 				end if
