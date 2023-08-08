@@ -64,7 +64,7 @@ event ObjectMain
 			object.value0++
 			if object.value0 == 30
 				object.value0 = 0
-				PlayMusic(TRACK_STAGE)
+				PlayMusic(0)
 				object.state++
 			end if
 		end if
@@ -412,7 +412,7 @@ end event
 
 event ObjectStartup
 	stage.pauseEnabled = 0
-	LoadSpriteSheet("Global/Display.gif")
+	LoadSpriteSheet("Global/S2TitleCard.gif")
 	SpriteFrame(0, 0, 15, 16, 37, 79)
 	SpriteFrame(0, 0, 16, 16, 53, 79)
 	SpriteFrame(0, 0, 16, 16, 70, 79)
@@ -445,15 +445,6 @@ event ObjectStartup
 	SpriteFrame(63, 0, 23, 29, 59, 1)
 	SpriteFrame(63, 0, 23, 32, 42, 31)
 	SpriteFrame(0, 0, 140, 5, 37, 73)
-	if vs.playerID == 0
-		SpriteFrame(-160, -16, 136, 7, 110, 172)
-	else
-		SpriteFrame(-160, -16, 136, 7, 110, 164)
-	end if
-	if options.vsMode == 1
-		CallNativeFunction2(ReceiveEntity, 0x400, 1)
-		ResetObjectEntity(0x400, TypeName[Blank Object], 0, 0, 0)
-	end if
 	arrayPos0 = 32
 	while arrayPos0 < 0x420
 		if object[arrayPos0].type == TypeName[Title Card]
@@ -479,6 +470,6 @@ event RSDKDraw
 end event
 
 event RSDKLoad
-	LoadSpriteSheet("Global/Display.gif")
+	LoadSpriteSheet("Global/S2TitleCard.gif")
 	SpriteFrame(-16, -16, 32, 32, 1, 143)
 end event
