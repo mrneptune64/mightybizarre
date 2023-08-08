@@ -426,9 +426,9 @@ event ObjectStartup
 	SpriteFrame(0, 0, 16, 16, 76, 113)
 	SpriteFrame(0, 0, 8, 256, 248, 0)
 	SpriteFrame(0, 0, 62, 16, 83, 1)
-	SpriteFrame(63, 0, 16, 29, 42, 1)
-	SpriteFrame(63, 0, 23, 29, 59, 1)
-	SpriteFrame(63, 0, 23, 32, 42, 31)
+	SpriteFrame(48, -16, 48, 48, 1, 130)
+	SpriteFrame(48, -16, 48, 48, 50, 130)
+	SpriteFrame(48, -16, 48, 48, 99, 130)
 	SpriteFrame(0, 0, 140, 5, 37, 73)
 	arrayPos0 = 32
 	while arrayPos0 < 0x420
