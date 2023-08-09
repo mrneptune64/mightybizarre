@@ -223,9 +223,9 @@ event ObjectDraw
 		case 2
 		case 3
 			SetActivePalette(0, 0, screen.ysize)
-			DrawRect(0, 0, screen.xsize, object.value3, 0, 145, 0, 255)		
+			DrawRect(0, 0, screen.xsize, object.value3, 0, 0, 0, 255)		
 			DrawRect(0, object.value3, screen.xsize, screen.ysize, 0, 0, 0, 255)
-			DrawRect(object.value4, 168, screen.xsize, 72, 224, 224, 0, 255)
+			DrawRect(object.value4, 168, screen.xsize, 72, 0, 0, 0, 0)
 			temp0 = object.value4
 			temp0 += screen.xcenter
 			DrawSpriteScreenXY(31, temp0, 176)
@@ -253,8 +253,8 @@ event ObjectDraw
 		case 4
 		case 5
 			SetActivePalette(0, 0, screen.ysize)
-			DrawRect(0, 0, screen.xsize, object.value3, 0, 145, 0, 255)
-			DrawRect(object.value4, 168, screen.xsize, 72, 224, 224, 0, 255)
+			DrawRect(0, 0, screen.xsize, object.value3, 0, 0, 0, 255)
+			DrawRect(object.value4, 168, screen.xsize, 72, 0, 0, 0, 0)
 			temp0 = object.value4
 			temp0 += screen.xcenter
 			DrawSpriteScreenXY(31, temp0, 176)
@@ -364,7 +364,7 @@ event ObjectDraw
 				temp1 += stage.actNum
 				if temp1 > 30
 					temp1 = 30
-				end if
+				end ifs
 				DrawSpriteScreenXY(temp1, temp0, 88)
 			end if
 			break
@@ -398,38 +398,38 @@ end event
 event ObjectStartup
 	stage.pauseEnabled = 0
 	LoadSpriteSheet("Global/S2TitleCard.gif")
-	SpriteFrame(0, 0, 15, 16, 37, 79)
-	SpriteFrame(0, 0, 16, 16, 53, 79)
-	SpriteFrame(0, 0, 16, 16, 70, 79)
-	SpriteFrame(0, 0, 16, 16, 87, 79)
-	SpriteFrame(0, 0, 15, 16, 104, 79)
-	SpriteFrame(0, 0, 15, 16, 120, 79)
-	SpriteFrame(0, 0, 16, 16, 136, 79)
-	SpriteFrame(0, 0, 16, 16, 153, 79)
-	SpriteFrame(0, 0, 8, 16, 170, 79)
-	SpriteFrame(0, 0, 16, 16, 179, 79)
-	SpriteFrame(0, 0, 16, 16, 196, 79)
-	SpriteFrame(0, 0, 16, 16, 213, 79)
-	SpriteFrame(0, 0, 16, 16, 43, 96)
-	SpriteFrame(0, 0, 16, 16, 67, 96)
-	SpriteFrame(0, 0, 16, 16, 84, 96)
-	SpriteFrame(0, 0, 16, 16, 101, 96)
-	SpriteFrame(0, 0, 16, 16, 118, 96)
-	SpriteFrame(0, 0, 16, 16, 135, 96)
-	SpriteFrame(0, 0, 16, 16, 152, 96)
-	SpriteFrame(0, 0, 16, 16, 169, 96)
-	SpriteFrame(0, 0, 16, 16, 186, 96)
-	SpriteFrame(0, 0, 16, 16, 203, 96)
-	SpriteFrame(0, 0, 16, 16, 220, 96)
-	SpriteFrame(0, 0, 15, 16, 43, 113)
-	SpriteFrame(0, 0, 16, 16, 59, 113)
-	SpriteFrame(0, 0, 16, 16, 76, 113)
-	SpriteFrame(0, 0, 8, 256, 248, 0)
-	SpriteFrame(0, 0, 62, 16, 83, 1)
-	SpriteFrame(48, -16, 48, 48, 1, 130)
-	SpriteFrame(48, -16, 48, 48, 50, 130)
-	SpriteFrame(48, -16, 48, 48, 99, 130)
-	SpriteFrame(0, 0, 140, 5, 37, 73)
+	SpriteFrame(0, 0, 15, 16, 37, 79) // A
+	SpriteFrame(0, 0, 16, 16, 53, 79) // B
+	SpriteFrame(0, 0, 16, 16, 70, 79) // C
+	SpriteFrame(0, 0, 16, 16, 87, 79) // D
+	SpriteFrame(0, 0, 15, 16, 104, 79) // E
+	SpriteFrame(0, 0, 15, 16, 120, 79) // F
+	SpriteFrame(0, 0, 16, 16, 136, 79) // G
+	SpriteFrame(0, 0, 16, 16, 153, 79) // H
+	SpriteFrame(0, 0, 8, 16, 170, 79) // I
+	SpriteFrame(0, 0, 16, 16, 179, 79) // J
+	SpriteFrame(0, 0, 16, 16, 196, 79) // K
+	SpriteFrame(0, 0, 16, 16, 213, 79) // L
+	SpriteFrame(0, 0, 16, 16, 43, 96) // M
+	SpriteFrame(0, 0, 16, 16, 67, 96) // N
+	SpriteFrame(0, 0, 16, 16, 84, 96) // O
+	SpriteFrame(0, 0, 16, 16, 101, 96) // P
+	SpriteFrame(0, 0, 16, 16, 118, 96) // Q
+	SpriteFrame(0, 0, 16, 16, 135, 96) // R
+	SpriteFrame(0, 0, 16, 16, 152, 96) // S
+	SpriteFrame(0, 0, 16, 16, 169, 96) // T
+	SpriteFrame(0, 0, 16, 16, 186, 96) // U
+	SpriteFrame(0, 0, 16, 16, 203, 96) // V
+	SpriteFrame(0, 0, 16, 16, 220, 96) // W
+	SpriteFrame(0, 0, 15, 16, 43, 113) // X
+	SpriteFrame(0, 0, 16, 16, 59, 113) // Y
+	SpriteFrame(0, 0, 16, 16, 76, 113) // Z
+	SpriteFrame(0, 0, 8, 256, 248, 0) // Vertical Triangle Strip
+	SpriteFrame(0, 0, 62, 16, 83, 1) // ZONE Text
+	SpriteFrame(48, -16, 48, 48, 1, 130) // Act 1
+	SpriteFrame(48, -16, 48, 48, 50, 130) // Act 2
+	SpriteFrame(48, -16, 48, 48, 99, 130) // Act 3
+	SpriteFrame(0, 0, 140, 5, 37, 73) // Game Name Text
 	arrayPos0 = 32
 	while arrayPos0 < 0x420
 		if object[arrayPos0].type == TypeName[Title Card]
