@@ -1,30 +1,6 @@
 Operating system: Microsoft Windows NT 6.2.9200.0
 Opening game "P:\TeamForever-v4-1.3-1.3.0\build\x64\Release\SonLVL.ini"...
 Game type is V4.
-Loading TITLE SCREEN...
-Loading object definition file "SonLVLObjDefs\Animals.ini".
-Loading object definition file "SonLVLObjDefs\Continue.ini".
-Loading object definition file "SonLVLObjDefs\CPZ.ini".
-Loading object definition file "SonLVLObjDefs\Credits.ini".
-Loading object definition file "SonLVLObjDefs\Ending.ini".
-Loading object definition file "SonLVLObjDefs\Enemies.ini".
-Loading object definition file "SonLVLObjDefs\GHZ.ini".
-Loading object definition file "SonLVLObjDefs\Global.ini".
-Loading object definition file "SonLVLObjDefs\LevelSelect.ini".
-Loading object definition file "SonLVLObjDefs\LZ.ini".
-Loading object definition file "SonLVLObjDefs\MZ.ini".
-Loading object definition file "SonLVLObjDefs\Players.ini".
-Loading object definition file "SonLVLObjDefs\SBZ.ini".
-Loading object definition file "SonLVLObjDefs\SLZ.ini".
-Loading object definition file "SonLVLObjDefs\Special.ini".
-Loading object definition file "SonLVLObjDefs\SYZ.ini".
-Loading object definition file "SonLVLObjDefs\Title.ini".
-Drawing tile bitmaps...
-Drawing collision bitmaps...
-Drawing chunk bitmaps...
-Level loaded in 0.5567565 second(s).
-Load completed.
-Saving TITLE SCREEN...
 Loading AQUATIC ALTAR ZONE 1...
 Loading object definition file "SonLVLObjDefs\Animals.ini".
 Loading object definition file "SonLVLObjDefs\Continue.ini".
@@ -46,10 +22,64 @@ Loading object definition file "SonLVLObjDefs\Title.ini".
 Drawing tile bitmaps...
 Drawing collision bitmaps...
 Drawing chunk bitmaps...
-Level loaded in 0.4729074 second(s).
+Level loaded in 0.4666163 second(s).
 Load completed.
 Saving AQUATIC ALTAR ZONE 1...
 Saving AQUATIC ALTAR ZONE 1...
+Saving AQUATIC ALTAR ZONE 1...
+Saving AQUATIC ALTAR ZONE 1...
+Saving AQUATIC ALTAR ZONE 1...
+Saving AQUATIC ALTAR ZONE 1...
+Loading AQUATIC ALTAR ZONE 1...
+Loading object definition file "SonLVLObjDefs\Animals.ini".
+Loading object definition file "SonLVLObjDefs\Continue.ini".
+Loading object definition file "SonLVLObjDefs\CPZ.ini".
+Loading object definition file "SonLVLObjDefs\Credits.ini".
+Loading object definition file "SonLVLObjDefs\Ending.ini".
+Loading object definition file "SonLVLObjDefs\Enemies.ini".
+Loading object definition file "SonLVLObjDefs\GHZ.ini".
+Loading object definition file "SonLVLObjDefs\Global.ini".
+Loading object definition file "SonLVLObjDefs\LevelSelect.ini".
+Loading object definition file "SonLVLObjDefs\LZ.ini".
+Loading object definition file "SonLVLObjDefs\MZ.ini".
+Loading object definition file "SonLVLObjDefs\Players.ini".
+Loading object definition file "SonLVLObjDefs\SBZ.ini".
+Loading object definition file "SonLVLObjDefs\SLZ.ini".
+Loading object definition file "SonLVLObjDefs\Special.ini".
+Loading object definition file "SonLVLObjDefs\SYZ.ini".
+Loading object definition file "SonLVLObjDefs\Title.ini".
+Drawing tile bitmaps...
+Drawing collision bitmaps...
+Drawing chunk bitmaps...
+Level loaded in 0.4308852 second(s).
+Load completed.
+Loading LEVEL TEST...
+Loading object definition file "SonLVLObjDefs\Animals.ini".
+Loading object definition file "SonLVLObjDefs\Continue.ini".
+Loading object definition file "SonLVLObjDefs\CPZ.ini".
+Loading object definition file "SonLVLObjDefs\Credits.ini".
+Loading object definition file "SonLVLObjDefs\Ending.ini".
+Loading object definition file "SonLVLObjDefs\Enemies.ini".
+Loading object definition file "SonLVLObjDefs\GHZ.ini".
+Loading object definition file "SonLVLObjDefs\Global.ini".
+Loading object definition file "SonLVLObjDefs\LevelSelect.ini".
+Loading object definition file "SonLVLObjDefs\LZ.ini".
+Loading object definition file "SonLVLObjDefs\MZ.ini".
+Loading object definition file "SonLVLObjDefs\Players.ini".
+Loading object definition file "SonLVLObjDefs\SBZ.ini".
+Loading object definition file "SonLVLObjDefs\SLZ.ini".
+Loading object definition file "SonLVLObjDefs\Special.ini".
+Loading object definition file "SonLVLObjDefs\SYZ.ini".
+Loading object definition file "SonLVLObjDefs\Title.ini".
+Drawing tile bitmaps...
+Drawing collision bitmaps...
+Drawing chunk bitmaps...
+Level loaded in 0.4542386 second(s).
+Load completed.
+Saving LEVEL TEST...
+Saving LEVEL TEST...
+Saving LEVEL TEST...
+Saving LEVEL TEST...
 System.ComponentModel.Win32Exception (0x80004005): The system cannot find the file specified
    at System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)
    at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)

@@ -757,7 +757,7 @@ SetMusicTrack("Invincibility.ogg", 2, 58498)
 	end switch
 	if stage.actNum < 4
 		if stage.actNum == 1
-		SetMusicTrack("LZA1.ogg", 0, 95649)
+		SetMusicTrack("LZA1.ogg", 0, 17640)
 		SpeedUpMusic = LZSetup_Function99
 		SlowDownMusic = LZSetup_Function100
 		end if
@@ -767,7 +767,7 @@ SetMusicTrack("Invincibility.ogg", 2, 58498)
 		SlowDownMusic = LZSetup_Function100
 		end if
 		if stage.actNum == 3
-		SetMusicTrack("LZA3.ogg", 0, 96161)
+		SetMusicTrack("TestingZone.ogg", 0, 88200)
 		SpeedUpMusic = LZSetup_Function99
 		SlowDownMusic = LZSetup_Function100
 		End if
