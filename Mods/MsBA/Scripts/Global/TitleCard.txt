@@ -364,7 +364,7 @@ event ObjectDraw
 				temp1 += stage.actNum
 				if temp1 > 30
 					temp1 = 30
-				end ifs
+				end if
 				DrawSpriteScreenXY(temp1, temp0, 88)
 			end if
 			break
