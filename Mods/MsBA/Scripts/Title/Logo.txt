@@ -593,15 +593,15 @@ end event
 event ObjectStartup
 	LoadSpriteSheet("Title/Title.gif")
 	SetMusicTrack("Titlescreen.ogg", 0, 0)
-	SpriteFrame(-33, -74, 65, 64, 1, 1) //0 Sonic
-	SpriteFrame(-33, -74, 65, 88, 1, 1)
-	SpriteFrame(-34, -66, 74, 88, 67, 1)
-	SpriteFrame(-34, -66, 74, 88, 142, 1)
-	SpriteFrame(-32, -72, 79, 88, 217, 1)
-	SpriteFrame(-24, -74, 72, 88, 297, 1)
-	SpriteFrame(-36, -76, 81, 88, 370, 1)
-	SpriteFrame(-36, -76, 81, 88, 1, 90)
-	SpriteFrame(-36, -76, 81, 88, 83, 90)
+	SpriteFrame(-33, -74, 64, 67, 1, 1) //0 Sonic
+	SpriteFrame(-33, -74, 64, 67, 1, 1)
+	SpriteFrame(-33, -74, 64, 67, 1, 1)
+	SpriteFrame(-33, -74, 64, 67, 1, 1)
+	SpriteFrame(-33, -74, 64, 67, 1, 1)
+	SpriteFrame(-33, -74, 64, 67, 1, 1)
+	SpriteFrame(-33, -74, 64, 67, 1, 1)
+	SpriteFrame(-33, -74, 64, 67, 1, 1)
+	SpriteFrame(-33, -74, 64, 67, 1, 1)
 	SpriteFrame(-128, 42, 256, 74, 255, 90) //9 Logo Top
 	SpriteFrame(-128, 112, 256, 74, 255, 167) //10 Logo Bottom
 	SpriteFrame(0, 0, 71, 17, 182, 210) //11 Copyright Sega
