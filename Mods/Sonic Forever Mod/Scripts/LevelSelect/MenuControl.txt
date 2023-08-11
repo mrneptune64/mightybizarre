@@ -108,19 +108,19 @@ function MenuControl_Function1
 			StopMusic()
 			break
 		case 1
-			SetMusicTrack("GreenHill.ogg", 0, 0x9B0AA)
+			SetMusicTrack("GHZA1.ogg", 0, 0x9B0AA)
 			PlayMusic(0)
 			break
 		case 2
-			SetMusicTrack("Marble.ogg", 0, 0x18434)
+			SetMusicTrack("GHZA2.ogg", 0, 0x18434)
 			PlayMusic(0)
 			break
 		case 3
-			SetMusicTrack("SpringYard.ogg", 0, 0x18968)
+			SetMusicTrack("AAZA1.ogg", 0, 0x18968)
 			PlayMusic(0)
 			break
 		case 4
-			SetMusicTrack("Labyrinth.ogg", 0, 0x149DC)
+			SetMusicTrack("LZA3.ogg", 0, 0x149DC)
 			PlayMusic(0)
 			break
 		case 5
@@ -503,13 +503,12 @@ event ObjectStartup
 		object[arrayPos0].priority = PRIORITY_ACTIVE
 	next
 	options.stageSelectFlag = 1
-	SetMusicTrack("Starlight.ogg", 0, 0x1498C)
+	SetMusicTrack("StartingTheShow.ogg", 0, 0x1498C)
 	SetupMenu(MENU_1, 0, 3, 1)
-	AddMenuEntry(MENU_1, "GREEN HILL 1", 1)
+	AddMenuEntry(MENU_1, "EMERALD CASCADE 1", 1)
 	AddMenuEntry(MENU_1, "2", 0)
-	AddMenuEntry(MENU_1, "3", 0)
 	AddMenuEntry(MENU_1, " ", 0)
-	AddMenuEntry(MENU_1, "MARBLE 1", 1)
+	AddMenuEntry(MENU_1, "AQUATIC ALTAR 1", 1)
 	AddMenuEntry(MENU_1, "2", 0)
 	AddMenuEntry(MENU_1, "3", 0)
 	AddMenuEntry(MENU_1, " ", 0)
