@@ -110,7 +110,7 @@ function GHZSetup_Function94
 		case 0
 			if stage.actNum == 1
 			SetMusicTrack("Invincibility.ogg", 2, 58498)
-			SwapMusicTrack("GHZA1.ogg", 0, 697974, 0x30D4)
+			SwapMusicTrack("ECZ1.ogg", 0, 195804, 0x30D4)
 			end if
 			if stage.actNum == 2
 			SetMusicTrack("Invincibility.ogg", 2, 58498)
@@ -123,7 +123,7 @@ function GHZSetup_Function94
 			break
 		case 2
 			if stage.actNum == 1
-			SetMusicTrack("GHZA1.ogg", 0, 697974)
+			SetMusicTrack("ECZ1.ogg", 0, 195804)
 			SwapMusicTrack("Invincibility.ogg", 2, 58498, 0x30D4)
 			end if
 			if stage.actNum == 2
@@ -138,7 +138,7 @@ function GHZSetup_Function94
 			break
 		default
 			if stage.actNum == 1
-			SetMusicTrack("GHZA1.ogg", 0, 697974)
+			SetMusicTrack("ECZ1.ogg", 0, 195804)
 			SetMusicTrack("Invincibility.ogg", 2, 58498)
 			end if
 			if stage.actNum == 2
@@ -265,7 +265,7 @@ event ObjectStartup
 
 
 	if stage.actNum == 1
-	SetMusicTrack("GHZA1.ogg", 0, 697974)
+	SetMusicTrack("ECZ1.ogg", 0, 195804)
 	SpeedUpMusic = GHZSetup_Function93
 	SlowDownMusic = GHZSetup_Function94
 	end if

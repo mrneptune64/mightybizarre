@@ -14,6 +14,7 @@ reserve function MZSetup_Function94
 reserve function UFO.toggle
 
 // Static Values
+public value ERZSetup_value29 = 0;
 
 // Tables
 public table MZSetup_table0
@@ -68,7 +69,7 @@ function MZSetup_Function93
 
 			if stage.actNum == 1
 			SetMusicTrack("Invincibility_F.ogg", 2, 46798)
-			SwapMusicTrack("MZA1_F.ogg", 0, 92700, 0x1F40)
+			SwapMusicTrack("ERZ1_F.ogg", 0, 92700, 0x1F40)
 			end if
 			if stage.actNum == 2
 			SetMusicTrack("Invincibility_F.ogg", 2, 46798)
@@ -81,7 +82,7 @@ function MZSetup_Function93
 			break
 		case 2
 			if stage.actNum == 1
-			SetMusicTrack("MZA1_F.ogg", 0, 92700)
+			SetMusicTrack("ERZ1_F.ogg", 0, 92700)
 			SwapMusicTrack("Invincibility_F.ogg", 2, 46798, 0x1F40)
 			end if
 			if stage.actNum == 2
@@ -95,7 +96,7 @@ function MZSetup_Function93
 			break
 		default
 			if stage.actNum == 1
-			SetMusicTrack("MZA1_F.ogg", 0, 92700)
+			SetMusicTrack("ERZ1_F.ogg", 0, 92700)
 			SetMusicTrack("Invincibility_F.ogg", 2, 46798)
 			end if
 			if stage.actNum == 2
@@ -126,7 +127,7 @@ function MZSetup_Function94
 		case 0
 			if stage.actNum == 1
 			SetMusicTrack("Invincibility.ogg", 2, 58498)
-			SwapMusicTrack("MZA1.ogg", 0, 115875, 0x30D4)
+			SwapMusicTrack("ERZ1.ogg", 0, 78048, 0x30D4)
 			end if
 			if stage.actNum == 2
 			SetMusicTrack("Invincibility.ogg", 2, 58498)
@@ -139,7 +140,7 @@ function MZSetup_Function94
 			break
 		case 2
 			if stage.actNum == 1
-			SetMusicTrack("MZA1.ogg", 0, 115875)
+			SetMusicTrack("ERZ1.ogg", 0, 78048)
 			SwapMusicTrack("Invincibility.ogg", 2, 58498, 0x30D4)
 			end if
 			if stage.actNum == 2
@@ -154,7 +155,7 @@ function MZSetup_Function94
 			break
 		default
 			if stage.actNum == 1
-			SetMusicTrack("MZA1.ogg", 0, 115875)
+			SetMusicTrack("ERZ1.ogg", 0, 78048)
 			SetMusicTrack("Invincibility.ogg", 2, 58498)
 			end if
 			if stage.actNum == 2
@@ -171,7 +172,6 @@ function MZSetup_Function94
 		stage.musicFlag = 2
 	end if
 end function
-
 
 event ObjectMain
 	CallFunction(UFO.toggle)
@@ -247,6 +247,12 @@ event ObjectMain
 			end if
 		end if
 	next
+	if ERZSetup_value29 == 10
+		RotatePalette(0, 171, 173, 1)
+		ERZSetup_value29 = 0
+	else
+		ERZSetup_value29++
+	end if
 end event
 
 
@@ -279,7 +285,7 @@ event ObjectStartup
 			break
 	end switch
 	if stage.actNum == 1
-	SetMusicTrack("MZA1.ogg", 0, 115875)
+	SetMusicTrack("ERZ1.ogg", 0, 78048)
 	end if
 	if stage.actNum == 2
 	SetMusicTrack("MZA2.ogg", 0, 703105)
