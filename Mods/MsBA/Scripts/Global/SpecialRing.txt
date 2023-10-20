@@ -15,7 +15,7 @@ private alias 22 : TYPE_SPECIALRING
 
 event ObjectMain
 	if object.state == 0
-		if object[0].value0 > -1
+		if object[0].value0 >= 0
 			BoxCollisionTest(C_TOUCH, object.entityPos, -16, -16, 16, 16, 0, HITBOX_AUTO, HITBOX_AUTO, HITBOX_AUTO, HITBOX_AUTO)
 			if checkResult == 1
 				object[0].type = TypeName[Blank Object]
@@ -54,7 +54,7 @@ end event
 event ObjectDraw
 	switch object.state
 	case 0
-		if object[0].value0 > -1
+		if object[0].value0 >= 0
 			temp0 = object.frame
 			temp0 >>= 2
 			if temp0 > 3
