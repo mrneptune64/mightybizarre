@@ -105,11 +105,14 @@ function Save_Transfer
 end function
 
 function Sega_Function0
-	if expansion == 0
-		InitializeDiscordRPC(",0,,,,,1130996880034246758")
-	else
-		InitializeDiscordRPC(",0,,,,,1164701559075119244")
-	endif
+	switch expansion
+		case 0
+			InitializeDiscordRPC(",0,,,,,1130996880034246758")
+			break
+		case 1
+			InitializeDiscordRPC(",0,,,,,1164701559075119244")
+			break
+	end switch
 	CheckTouchRect(0, 0, screen.xsize, screen.ysize)
 	if checkResult == -1
 		object.value4 = 0

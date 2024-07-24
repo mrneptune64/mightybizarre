@@ -429,7 +429,7 @@ event ObjectStartup
 	SpriteFrame(48, -16, 48, 48, 1, 130) // Act 1
 	SpriteFrame(48, -16, 48, 48, 50, 130) // Act 2
 	SpriteFrame(48, -16, 48, 48, 99, 130) // Act 3
-	SpriteFrame(0, 0, 140, 5, 37, 73) // Game Name Text
+	SpriteFrame(-40, 0, 197, 8, 1, 179) // Game Name Text
 	arrayPos0 = 32
 	while arrayPos0 < 0x420
 		if object[arrayPos0].type == TypeName[Title Card]

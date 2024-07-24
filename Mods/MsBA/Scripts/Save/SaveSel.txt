@@ -26,6 +26,8 @@ private alias object.value16 : popup.time
 private alias object.value17 : blink.time
 private alias object.value18 : blink.tick
 private alias object.value19 : blink.top
+private alias object.value20 : bg.frame
+private alias object.value21 : bg.increment
 
 private alias 0 : choose.save
 private alias 1 : load.save
@@ -750,12 +752,30 @@ event ObjectDraw
 	temp1 = 0
 	while temp1 < screen.ysize
 		while temp0 < screen.xsize
-			DrawSpriteScreenXY(10, temp0, temp1)
+			DrawSpriteScreenXY(bg.frame, temp0, temp1)
 			temp0 += 12
 		loop
 		temp0 = 0
 		temp1 += 12
 	loop
+	
+	if bg.increment == 2
+		bg.increment = 0
+		if bg.frame < 10
+			bg.frame = 10
+		end if
+		if bg.frame <= 10
+			bg.frame = 164
+		end if
+		if bg.frame >= 164
+			bg.frame++
+		end if
+		if bg.frame == 168
+			bg.frame = 10
+		end if
+	else
+		bg.increment++
+	end if
 
 	//Top Banner
 	DrawRect(0, 0, screen.xsize, 40, 164, 161, 230, 255)
@@ -781,16 +801,7 @@ event ObjectDraw
 			temp1 = temp0
 			temp1 += 2
 			DrawSpriteScreenXY(12, temp1, 65)
-		//Wings
-		if save.slot == temp7
-			current.save.blank = draw.new.save
-			temp1 = temp0
-			temp1 += 45
-			DrawSpriteScreenXY(75, temp1, screen.ycenter)
-			temp1 = temp0
-			temp1 += 2
-		end if
-		
+
 		//Frame
 		temp2 = 63
 		if save.slot == temp7
@@ -807,6 +818,7 @@ event ObjectDraw
 			end if
 		end if
 		DrawSpriteScreenXY(11, temp0, temp2)
+		temp2 += 48
 		if draw.zone == 20 //Complete
 			temp3 = temp0
 			temp3 += 78
@@ -1178,7 +1190,7 @@ event ObjectDraw
 		
 		//Emeralds
 		temp1 = temp0
-		temp1 += 7
+		temp1 += 68
 		temp2 = 63
 		if save.slot == temp7
 			if menu.state < 5
@@ -1193,7 +1205,7 @@ event ObjectDraw
 				end if
 			end if
 		end if
-		temp2 += 105
+		temp2 += 46
 		temp3 = 0
 		temp6 = 6
 		if saveRAM[262] == 1
@@ -1211,8 +1223,26 @@ event ObjectDraw
 				temp5 = 68
 				temp5 += temp3
 			end if
+			if temp3 == 1
+				temp2 += 6
+			end if
+			if temp3 == 3
+				temp2 += 6
+			end if
+			if temp3 == 5
+				temp2 += 6
+			end if
 			DrawSpriteScreenXY(temp5, temp1, temp2)
-			temp1 += 11
+			if temp3 == 1
+				temp2 -= 6
+			end if
+			if temp3 == 3
+				temp2 -= 6
+			end if
+			if temp3 == 5
+				temp2 -= 6
+			end if
+			temp1 += 7
 			temp3++
 		loop
 		
@@ -1314,10 +1344,10 @@ end event
 event ObjectStartup
 	ReadSaveRAM()
 	LoadPalette("SaveSelect.act", 0, 0, 0, 256)
-	LoadSpriteSheet("Menus/SaveSelect.gif")
+	LoadSpriteSheet("DataSelect/DataIcons.gif")
 	
 	switch saveRAM[274]
-		case 0LoadSpriteSheet("Menus/SaveSelect.gif")
+		case 0LoadSpriteSheet("DataSelect/DataIcons.gif")
 			break
 		case 1
 			break	
@@ -1335,8 +1365,8 @@ event ObjectStartup
 	SpriteFrame(0, 0, 7, 11, 208, 24) //8
 	SpriteFrame(0, 0, 7, 11, 216, 24) //9
 	
-	SpriteFrame(0, 0, 12, 12, 152, 1) //10 Background Grid
-	SpriteFrame(0, 0, 90, 118, 1, 62) //11 Saveslot
+	SpriteFrame(0, 0, 12, 12, 174, 1) //10 Background Grid
+	SpriteFrame(0, 0, 172, 68, 1, 1) //11 Saveslot
 	SpriteFrame(0, 0, 90, 118, 249, 393) //12 Saveslot Dropshadow
 	
 	
@@ -1421,14 +1451,14 @@ event ObjectStartup
 	SpriteFrame(-9, 0, 45, 6, 42, 27) //65 Special Name
 	SpriteFrame(0, 0, 34, 6, 112, 41) //66 Clear Name
 	
-	SpriteFrame(0, 0, 10, 10, 1, 36) //67 Blank Emerald
-	SpriteFrame(0, 0, 10, 10, 12, 36) //68 Emerald 1
-	SpriteFrame(0, 0, 10, 10, 23, 36) //69 Emerald 2
-	SpriteFrame(0, 0, 10, 10, 34, 36) //70 Emerald 3
-	SpriteFrame(0, 0, 10, 10, 45, 36) //71 Emerald 4
-	SpriteFrame(0, 0, 10, 10, 56, 36) //72 Emerald 5
-	SpriteFrame(0, 0, 10, 10, 67, 36) //73 Emerald 6
-	SpriteFrame(0, 0, 10, 10, 78, 36) //74 Emerald 7
+	SpriteFrame(0, 0, 8, 8, 237, 25) //67 Blank Emerald
+	SpriteFrame(0, 0, 8, 8, 174, 25) //68 Emerald 1
+	SpriteFrame(0, 0, 8, 8, 183, 25) //69 Emerald 2
+	SpriteFrame(0, 0, 8, 8, 192, 25) //70 Emerald 3
+	SpriteFrame(0, 0, 8, 8, 201, 25) //71 Emerald 4
+	SpriteFrame(0, 0, 8, 8, 210, 25) //72 Emerald 5
+	SpriteFrame(0, 0, 8, 8, 219, 25) //73 Emerald 6
+	SpriteFrame(0, 0, 8, 8, 228, 25) //74 Emerald 7
 	
 	SpriteFrame(-80, -35, 162, 70, 1, 190) //75 Wings
 	
@@ -1441,7 +1471,7 @@ event ObjectStartup
 	
 	
 	SpriteFrame(0, 0, 13, 10, 165, 1) //80 Top Border Edge
-	SpriteFrame(-75, 0, 150, 18, 1, 1) //81 Save Select Heading
+	SpriteFrame(-44, 0, 87, 16, 1, 70) //81 Save Select Heading
 	
 	SpriteFrame(0, 0, 8, 8, 152, 14) //82 Bottom Border Edge
 	SpriteFrame(0, 0, 8, 8, 170, 14) //83 Bottom Border Bottom
@@ -1566,10 +1596,14 @@ event ObjectStartup
 	SpriteFrame(28, 12, 20, 10, 416, 370)
 	SpriteFrame(28, 12, 20, 10, 437, 370)
 	
-	
+	SpriteFrame(0, 0, 12, 12, 187, 1) //164 Background Grid 2
+	SpriteFrame(0, 0, 12, 12, 200, 1) //165 Background Grid 3 
+	SpriteFrame(0, 0, 12, 12, 213, 1) //166 Background Grid 4
+	SpriteFrame(0, 0, 12, 12, 226, 1) //167 Background Grid 5
+	SpriteFrame(0, 0, 12, 12, 239, 1) //168 Background Grid 6
 
 	stage.debugMode = 0
-	SetMusicTrack("StartingTheShow.ogg", 1, 1)
+	SetMusicTrack("DataSelect.ogg", 1, 1)
 	//SetMusicTrack("lookalike.ogg", 1, 700318)
 	//SetMusicTrack("Results.ogg", 1, 1)
 	

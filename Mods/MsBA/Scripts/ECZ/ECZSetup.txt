@@ -1,7 +1,7 @@
 // ----------------------------------
-// RSDK Project: Sonic 1/Sonic 2
+// RSDK Project: Mighty's Bizarre Adventure
 // Script Description: ECZ Setup Object
-// Script Author: Christan Whitehead/Simon Thomley
+// Script Author: Mr. Neptune
 // Unpacked by Rubberduckycooly's script unpacker
 // ----------------------------------
 
@@ -527,38 +527,44 @@ end function
 
 
 event ObjectMain
-	if stage.playerListPos == 0
-		if stage.actNum == 1
-			UpdateDiscordRPC("ecz,0,Emerald Cascade Zone,Mighty,Emerald Cascade Zone (Act 1),yed")
-		end if
-		if stage.actNum == 2
-			UpdateDiscordRPC("ecz,0,Emerald Cascade Zone,Mighty,Emerald Cascade Zone (Act 2),yed")
-		end if
-	end if
-	if stage.playerListPos == 1
-		if stage.actNum == 1
-			UpdateDiscordRPC("ecz,1,Emerald Cascade Zone,Ray,Emerald Cascade Zone (Act 1),")
-		end if
-		if stage.actNum == 2
-			UpdateDiscordRPC("ecz,1,Emerald Cascade Zone,Ray,Emerald Cascade Zone (Act 2),")
-		end if
-	end if
-	if stage.playerListPos == 2
-		if stage.actNum == 1
-			UpdateDiscordRPC("ecz,2,Emerald Cascade Zone,Knuckles,Emerald Cascade Zone (Act 1),")
-		end if
-		if stage.actNum == 2
-			UpdateDiscordRPC("ecz,2,Emerald Cascade Zone,Knuckles,Emerald Cascade Zone (Act 2),")
-		end if
-	end if
-	if stage.playerListPos == 3
-		if stage.actNum == 1
-			UpdateDiscordRPC("ecz,3,Emerald Cascade Zone,???,Emerald Cascade Zone (Act 1),")
-		end if
-		if stage.actNum == 2
-			UpdateDiscordRPC("ecz,3,Emerald Cascade Zone,???,Emerald Cascade Zone (Act 2),")
-		end if
-	end if
+	switch stage.playerListPos
+		case 0
+			switch stage.actNum
+				case 1
+					UpdateDiscordRPC("ecz,0,Emerald Cascade Zone,Mighty,Emerald Cascade Zone (Act 1),yed")
+					break
+				case 2
+					UpdateDiscordRPC("ecz,0,Emerald Cascade Zone,Mighty,Emerald Cascade Zone (Act 2),yed")
+					break
+		end switch
+		case 1
+			switch stage.actNum
+				case 1
+					UpdateDiscordRPC("ecz,1,Emerald Cascade Zone,Ray,Emerald Cascade Zone (Act 1),yed")
+					break
+				case 2
+					UpdateDiscordRPC("ecz,1,Emerald Cascade Zone,Ray,Emerald Cascade Zone (Act 2),yed")
+					break
+		end switch
+		case 2
+			switch stage.actNum
+				case 1
+					UpdateDiscordRPC("ecz,2,Emerald Cascade Zone,Knuckles,Emerald Cascade Zone (Act 1),yed")
+					break
+				case 2
+					UpdateDiscordRPC("ecz,2,Emerald Cascade Zone,Knuckles,Emerald Cascade Zone (Act 2),yed")
+					break
+		end switch
+		case 5
+			switch stage.actNum
+				case 1
+					UpdateDiscordRPC("ecz,3,Emerald Cascade Zone,Sonic,Emerald Cascade Zone (Act 1),yed")
+					break
+				case 2
+					UpdateDiscordRPC("ecz,3,Emerald Cascade Zone,Sonic,Emerald Cascade Zone (Act 2),yed")
+					break
+		end switch
+	end switch
 	if ECZSetup_value30 != 0
 		ECZSetup_value30 = 0
 		object.value4--
@@ -666,7 +672,7 @@ event ObjectStartup
 	SlowDownMusic = ECZSetup_Function94
 	end if
 	if stage.actNum == 2
-	SetMusicTrack("ECZA2.ogg", 0, 653440)
+	SetMusicTrack("ECZ2.ogg", 0, 653440)
 	SpeedUpMusic = ECZSetup_Function93
 	SlowDownMusic = ECZSetup_Function94
 	end if

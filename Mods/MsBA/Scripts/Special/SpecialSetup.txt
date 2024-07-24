@@ -137,18 +137,20 @@ end function
 
 event ObjectMain
 	if stage.state == STAGE_RUNNING
-		if stage.playerListPos == 0
-			UpdateDiscordRPC("unknowndata,0,Special Stage,Mighty,Special Stage,")
-		end if
-		if stage.playerListPos == 1
-			UpdateDiscordRPC("unknowndata,1,Special Stage,Ray,Special Stage,")
-		end if
-		if stage.playerListPos == 2
-			UpdateDiscordRPC("unknowndata,2,Special Stage,Knuckles,Special Stage,")
-		end if
-		if stage.playerListPos == 3
-			UpdateDiscordRPC("unknowndata,3,Special Stage,???,Special Stage,")
-		end if
+		switch stage.playerListPos
+		case 0
+			// UpdateDiscordRPC("unknowndata,0,Special Stage,Mighty,Special Stage,")
+			break
+		case 1
+			// UpdateDiscordRPC("unknowndata,1,Special Stage,Ray,Special Stage,")
+			break
+		case 2
+			// UpdateDiscordRPC("unknowndata,2,Special Stage,Knuckles,Special Stage,")
+			break
+		case 5
+			// UpdateDiscordRPC("unknowndata,3,Special Stage,Sonic,Special Stage,")
+			break
+		end switch
 		//Stage Rotate
 		if PlayerObject_value3 == 0
 			switch PlayerObject_value2
