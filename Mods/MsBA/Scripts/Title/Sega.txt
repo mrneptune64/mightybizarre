@@ -107,10 +107,10 @@ end function
 function Sega_Function0
 	switch expansion
 		case 0
-			InitializeDiscordRPC(",0,,,,,1130996880034246758")
+			InitializeDiscordRPC(",0,,,,Title Screen,1130996880034246758")
 			break
 		case 1
-			InitializeDiscordRPC(",0,,,,,1164701559075119244")
+			InitializeDiscordRPC(",0,,,,Title Screen,1164701559075119244")
 			break
 	end switch
 	CheckTouchRect(0, 0, screen.xsize, screen.ysize)
